@@ -148,16 +148,16 @@ def project(theta):
     total = 0
     for j in range(m):
         total += v[j]
-        if (j + 1) * v[j] - total + 1 > 0:
+        if (j + 1) * v[j] - total + 1.0 > 0:
             continue
         else:
             break
-    if (j + 1) * v[j] - total + 1 <= 0:
+    if (j + 1) * v[j] - total + 1.0 <= 0:
         rho = j
         total -= v[j]
     else:
         rho = m
-    shift = (total - 1) / rho
+    shift = (total - 1.0) / rho
     w = np.zeros(m)
     for _ in range(m):
         w[_] = max(theta[_] - shift, 0)
