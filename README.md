@@ -1,7 +1,7 @@
 # Comparing EM with GD in Mixture Models of Two Components
 This repository contains supplementary material for the paper accepted in UAI 2019. It also contains code in the experiment section. Please cite our paper if you want to use the code. All the programs are written in python and Jupyter Notebook.
 ## Supplementary material:
-* **UAI_2019__Supplementary_Material.pdf**: supplementary material; it contains full proofs and a general conjecture.
+* **UAI_2019__Supplementary_Material.pdf**: supplementary material; it contains full proofs and a general conjecture
 ## Bernoulli mixture models:
 * **nbm.py**: the library containing all the functions needed for learning BMMs with EM/GD
 * **test.ipynb**: basic testing for EM and GD; checks if the library is working well
