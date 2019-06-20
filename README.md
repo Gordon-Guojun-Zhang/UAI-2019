@@ -6,4 +6,4 @@ This repository contains supplementary material for the paper accepted in UAI 20
 * **k-cluster_ratio.ipynb**: checks if EM and GD are converging to k-cluster points, and computes the probabilities, as done in Section 6 Table 1/Table 2
 * **ratio_compare.ipynb**: computes the ratio of the negative log likelihood GD/EM converges to, to the ground truth loss, as done in Section 6 Table 3/Table 4
 ## Gaussian mixture models:
-* **gmm.ipynb**: 
+* **gaussian_mixture.ipynb**: explores the escape behavior for EM and GD in GMMs
